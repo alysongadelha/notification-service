@@ -5,7 +5,7 @@ describe('Notification', () => {
   it('should be able to create a notification', () => {
     const notification = new Notification({
       recipientId: 'recipientId',
-      content: new Content('New friendship solicitation'),
+      content: new Content('New friend request'),
       category: 'category',
     });
 

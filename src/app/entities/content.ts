@@ -10,9 +10,9 @@ export class Content {
   }
 
   constructor(content: string) {
-    const isContentlengthValid = this.validateContentLength(content);
+    const isContentLengthValid = this.validateContentLength(content);
 
-    if (!isContentlengthValid) {
+    if (!isContentLengthValid) {
       throw new Error('Content length must be between 5 and 240 characters');
     }
     this.content = content;
